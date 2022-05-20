@@ -254,6 +254,8 @@
     .service__area{
         padding: 120px 0;
     }
+    .service__card1,
+    .service__card2,
     .service__title{
         margin-bottom: 64px;
     }
@@ -283,7 +285,7 @@
 
     /*About Area Start*/
     .about__area{
-        padding: 100px 0;
+        padding: 32px 0;
         background-size: cover;
     }
     .about__content h2{
@@ -296,8 +298,8 @@
 
     /* Divider Area */
     .divider__area{
-        padding-top: 108px;
-        padding-bottom: 80px;
+        padding-top: 80px;
+        padding-bottom: 64px;
     }
     .footer__left-content{
         margin-bottom: 24px;
@@ -306,7 +308,7 @@
         font-size:20px;
     }
     .footer__links{
-        padding: 96px 0;
+        padding: 72px 0;
     }
     /* Divider Area */
 }
