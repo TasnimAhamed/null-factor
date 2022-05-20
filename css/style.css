@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:#121f3f;
+    --secundary:#f5ebc6;
+    --white:#ffffff;
+    --titlle:#dad2ae;
+}
+
+
+/* Fade In Down Animation */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    animation-duration: 800ms;
+}
+p{
+    margin-bottom: 0;
+}
+.container{
+    max-width:87%;
+}
+/* Header Area Start */
+.main__menu{
+    background-color: var(--primary);
+    padding: 42px 0;
+}
+.main-nav__items ul li:not(:last-child){
+    margin-right: 104px;
+}
+.main-nav__items ul li:last-child{
+    margin-right: 36px;
+}
+.main-nav__items ul li a{
+    font-family: 'Rubik', sans-serif;
+    font-size:24px;
+    font-weight: 400;
+    color: var(--secundary)!important;
+    text-transform: uppercase;
+}
+/* Header Area End */
+
+/*Banner Area Start*/
+
+.banner__area{
+    background:url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding:300px 0;
+}
+.banner__content h1{
+    font-family: 'Rubik', sans-serif;
+    font-size:100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--titlle);
+}
+
+/*Banner Area End*/
+
+/* Service Area Start */
+.service__area{
+    padding:200px 0;
+    background-color: #051223;
+}
+.service__title{
+    margin-bottom: 108px;
+    text-align: center;
+}
+.service__title h1{
+    font-family: 'Rubik', sans-serif;
+    font-size:74px;
+    color:#fbf9d6;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.service__card1{
+    background-color: #09173f;
+    padding:72px 72px 124px 72px;
+}
+
+.service__card2{
+    background-color: #0d2058;
+    padding:72px 72px 124px 72px;
+}
+.service__card3{
+    background-color: #112e70;
+    padding:72px 72px 124px 72px;
+}
+
+.card__header{
+    margin-bottom: 48px;
+}
+.card__header .card__header-text h3{
+    font-family: 'Rubik', sans-serif;
+    font-size:32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#dad2ae;
+    margin-bottom: 0;
+}
+.card__header img{
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+.card__header-text span{
+    display: inline-block;
+    width:150px;
+    height:3px;
+    background-color: #dad2ae;
+}
+.card__body p{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    font-weight:400;
+    color:#dad2ae;
+}
+/* Service Area End */
+
+/* About Area */
+
+.about__area{
+    background:url(../images/about.png);
+    background-color:#051223;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center bottom;
+    padding:200px 0;
+}
+.about__content{
+    text-align: center;
+}
+.about__content h2{
+    font-family: 'Rubik', sans-serif;
+    font-size:74px;
+    font-weight:400;
+    text-transform: uppercase;
+    color:#fbf9d6;
+    margin-bottom: 32px;
+}
+.about__content p{
+    font-family: 'Rubik', sans-serif;
+    font-size:36px;
+    font-weight:400;
+    color:#d1d1d1;
+}
+
+/* About Area */
+
+/* Divider Area */
+.divider__area{
+    padding-top: 250px;
+    padding-bottom:100px;
+    background: #051223;
+}
+.divider__border hr{
+    height:2px;
+    color: #efefef;
+}
+/* Divider Area */
+
+/* Footer Area Start */
+
+.footer__area {
+    background: #051223;
+}
+.footer__left-content p,
+.footer__right-content p,
+.footer__links ul li a{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    font-weight:300;
+    color:#ffffffbf;
+}
+
+.footer__links{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+/* Footer Area End */

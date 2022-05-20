@@ -1,0 +1,640 @@
+/* Extra Small Devices */
+@media (min-width: 320px) and (max-width:575px) {
+    /* Header Area Start */
+    .container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .logo{
+        width:70%;
+    }
+    .logo img{
+        width:80%;
+    }
+    .navbar-toggler{
+        width:22%;
+        padding:0;
+        text-align:right;
+    }
+    .navbar-toggler img{
+        width:34px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .main__menu{
+        padding: 20px 0;
+    }
+    .main-nav__items ul li:first-child{
+        padding-top: 16px;
+    }
+    .main-nav__items ul li a{
+        font-size:18px;
+    }
+    /* Header Area End */
+
+    /* Banner Section Start */
+
+    .banner__content h1{
+        font-size: 44px;
+        text-align: center;
+    }
+
+    /* Banner Section End */
+
+    /* Service Section Start */
+    .service__area{
+        padding: 120px 0;
+    }
+    .service__title{
+        margin-bottom: 64px;
+    }
+    .service__title h1{
+        font-size:36px;
+    }
+    .service__card1,
+    .service__card2,
+    .service__card3{
+        padding: 28px 28px 64px 28px;
+    }
+    .card__header .card__header-text h3{
+        font-size:18px;
+    }
+    .card__header img{
+        width: 42px;
+        height: 42px;
+        margin-bottom: 20px;
+    }
+    .card__header{
+        margin-bottom: 36px;
+    }
+    .card__body p{
+        font-size:18px;
+    }
+    /* Service Section End */
+
+    /*About Area Start*/
+    .about__area{
+        padding: 60px 0;
+        background-size: cover;
+    }
+    .about__content h2{
+        font-size:32px;
+    }
+    .about__content p{
+        font-size:18px
+    }
+    /*About Area End*/
+
+    /* Divider Area */
+    .divider__area{
+        padding-top: 108px;
+        padding-bottom: 80px;
+    }
+    .footer__left-content{
+        margin-bottom: 24px;
+    }
+    .footer__left-content p, .footer__right-content p, .footer__links ul li a{
+        font-size:18px;
+    }
+    .footer__links{
+        padding: 96px 0;
+    }
+    /* Divider Area */
+}
+
+/* Small Devices */
+@media (min-width: 576px) and (max-width:767px) {
+    /* Header Area Start */
+    .container{
+        max-width: 96%;
+    }
+    .logo{
+        width:70%;
+    }
+    .navbar-toggler{
+        width:22%;
+        padding:0;
+        text-align:right;
+    }
+    .navbar-toggler img{
+        width:34px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .main__menu{
+        padding: 20px 0;
+    }
+    .main-nav__items ul li:first-child{
+        padding-top: 16px;
+    }
+    .main-nav__items ul li a{
+        font-size:18px;
+    }
+    /* Header Area End */
+
+    /* Banner Section Start */
+
+    .banner__content h1{
+        font-size: 52px;
+    }
+
+    /* Banner Section End */
+
+    /* Service Section Start */
+    .service__area{
+        padding: 120px 0;
+    }
+    .service__title{
+        margin-bottom: 64px;
+    }
+    .service__title h1{
+        font-size:48px;
+    }
+    .service__card1,
+    .service__card2,
+    .service__card3{
+        padding: 60px 60px 80px 60px;
+    }
+    .card__header .card__header-text h3{
+        font-size:28px;
+    }
+    .card__header img{
+        width: 42px;
+        height: 42px;
+        margin-bottom: 20px;
+    }
+    .card__header{
+        margin-bottom: 36px;
+    }
+    .card__body p{
+        font-size:20px;
+    }
+    /* Service Section End */
+
+    /*About Area Start*/
+    .about__area{
+        padding: 60px 0;
+        background-size: cover;
+    }
+    .about__content h2{
+        font-size:34px;
+    }
+    .about__content p{
+        font-size:22px
+    }
+    /*About Area End*/
+
+    /* Divider Area */
+    .divider__area{
+        padding-top: 108px;
+        padding-bottom: 80px;
+    }
+    .footer__left-content{
+        margin-bottom: 24px;
+    }
+    .footer__left-content p, .footer__right-content p, .footer__links ul li a{
+        font-size:20px;
+    }
+    .footer__links{
+        padding: 96px 0;
+    }
+    /* Divider Area */
+}
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width:991px) {
+    /* Header Area Start */
+    .container{
+        max-width: 96%;
+    }
+    .logo{
+        width:70%;
+    }
+    .navbar-toggler{
+        width:22%;
+        padding:0;
+        text-align:right;
+    }
+    .navbar-toggler img{
+        width:34px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .main__menu{
+        padding: 20px 0;
+    }
+    .main-nav__items ul li:first-child{
+        padding-top: 16px;
+    }
+    .main-nav__items ul li a{
+        font-size:18px;
+    }
+    /* Header Area End */
+
+    /* Banner Section Start */
+
+    .banner__content h1{
+        font-size: 52px;
+    }
+
+    /* Banner Section End */
+
+    /* Service Section Start */
+    .service__area{
+        padding: 120px 0;
+    }
+    .service__title{
+        margin-bottom: 64px;
+    }
+    .service__title h1{
+        font-size:48px;
+    }
+    .service__card1,
+    .service__card2,
+    .service__card3{
+        padding: 80px 80px 120px 80px;
+    }
+    .card__header .card__header-text h3{
+        font-size:32px;
+    }
+    .card__header img{
+        width: 52px;
+        height: 52px;
+        margin-bottom: 20px;
+    }
+    .card__header{
+        margin-bottom: 36px;
+    }
+    .card__body p{
+        font-size:22px;
+    }
+    /* Service Section End */
+
+    /*About Area Start*/
+    .about__area{
+        padding: 100px 0;
+        background-size: cover;
+    }
+    .about__content h2{
+        font-size:36px;
+    }
+    .about__content p{
+        font-size:24px
+    }
+    /*About Area End*/
+
+    /* Divider Area */
+    .divider__area{
+        padding-top: 108px;
+        padding-bottom: 80px;
+    }
+    .footer__left-content{
+        margin-bottom: 24px;
+    }
+    .footer__left-content p, .footer__right-content p, .footer__links ul li a{
+        font-size:20px;
+    }
+    .footer__links{
+        padding: 96px 0;
+    }
+    /* Divider Area */
+}
+
+/* Large Devices */
+
+@media (min-width: 992px) and (max-width:1199px){
+    /* Header Area Start */
+    .container{
+        max-width:95%;
+    }
+    .main__menu {
+        padding: 32px 0;
+    }
+    .main-nav__items ul li:not(:last-child) {
+        margin-right: 56px;
+    }
+    .main-nav__items ul li a{
+        font-size:20px;
+    }
+    .main-nav__items ul li:last-child{
+        margin-right: 0;
+    }
+    /* Header Area End */
+
+    /*Banner Area Start*/
+    .banner__content h1{
+        font-size:72px;
+    }
+    /*Banner Area End*/
+
+    /*Service Area Start*/
+    .service__area{
+        padding: 120px 0;
+    }
+    .service__title {
+        margin-bottom: 72px;
+    }
+    .service__title h1{
+        font-size:52px;
+    }
+    .service__card1,
+    .service__card2,
+    .service__card3{
+        padding: 32px 32px 80px 32px;
+    }
+    .card__header .card__header-text h3{
+        font-size:18px;
+    }
+    .card__body p{
+        font-size:16px;
+    }
+    .card__header img{
+        width: 42px;
+        height: 42px;
+        margin-bottom: 20px;
+    }
+    .card__header {
+        margin-bottom: 32px;
+    }
+    /*Service Area Start*/
+
+    /* About Area Start */
+    .about__area{
+        padding: 120px 0;
+    }
+    .about__content h2{
+        font-size: 48px;
+    }
+    .about__content p{
+        font-size:24px;
+    }
+    /* About Area End */
+
+    /* Footer Area */
+    .divider__area {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .footer__left-content p, .footer__right-content p, .footer__links ul li a{
+        font-size:18px;
+    }
+    .footer__links{
+        padding: 108px 0;
+    }
+    /* Footer Area */
+
+}
+
+/* Extra Large Devices */
+
+@media (min-width: 1200px) and (max-width:1399px){
+    /* Header Area Start */
+    .container{
+        max-width:95%;
+    }
+    .main__menu {
+        padding: 32px 0;
+    }
+    .main-nav__items ul li:not(:last-child) {
+        margin-right: 56px;
+    }
+    .main-nav__items ul li a{
+        font-size:20px;
+    }
+    .main-nav__items ul li:last-child{
+        margin-right: 0;
+    }
+    /* Header Area End */
+
+    /*Banner Area Start*/
+    .banner__content h1{
+        font-size:72px;
+    }
+    /*Banner Area End*/
+
+    /*Service Area Start*/
+    .service__area{
+        padding: 120px 0;
+    }
+    .service__title {
+        margin-bottom: 72px;
+    }
+    .service__title h1{
+        font-size:52px;
+    }
+    .service__card1,
+    .service__card2,
+    .service__card3{
+        padding: 32px 32px 80px 32px;
+    }
+    .card__header .card__header-text h3{
+        font-size:18px;
+    }
+    .card__body p{
+        font-size:18px;
+    }
+    .card__header img{
+        width: 42px;
+        height: 42px;
+        margin-bottom: 20px;
+    }
+    .card__header {
+        margin-bottom: 32px;
+    }
+    /*Service Area Start*/
+
+    /* About Area Start */
+    .about__area{
+        padding: 120px 0;
+    }
+    .about__content h2{
+        font-size: 48px;
+    }
+    .about__content p{
+        font-size:24px;
+    }
+    /* About Area End */
+
+    /* Footer Area */
+    .divider__area {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .footer__left-content p, .footer__right-content p, .footer__links ul li a{
+        font-size:18px;
+    }
+    .footer__links{
+        padding: 108px 0;
+    }
+    /* Footer Area */
+
+}
+
+@media (min-width: 1400px) and (max-width:1599px){
+    /* Header Area Start */
+    .container{
+        max-width:85%;
+    }
+    .main__menu {
+        padding: 32px 0;
+    }
+    .main-nav__items ul li:not(:last-child) {
+        margin-right: 56px;
+    }
+    .main-nav__items ul li a{
+        font-size:20px;
+    }
+    .main-nav__items ul li:last-child{
+        margin-right: 0;
+    }
+    /* Header Area End */
+
+    /*Banner Area Start*/
+    .banner__content h1{
+        font-size:72px;
+    }
+    /*Banner Area End*/
+
+    /*Service Area Start*/
+    .service__area{
+        padding: 120px 0;
+    }
+    .service__title {
+        margin-bottom: 72px;
+    }
+    .service__title h1{
+        font-size:52px;
+    }
+    .service__card1,
+    .service__card2,
+    .service__card3{
+        padding: 32px 32px 80px 32px;
+    }
+    .card__header .card__header-text h3{
+        font-size:18px;
+    }
+    .card__body p{
+        font-size:18px;
+    }
+    .card__header img{
+        width: 42px;
+        height: 42px;
+        margin-bottom: 20px;
+    }
+    .card__header {
+        margin-bottom: 32px;
+    }
+    /*Service Area Start*/
+
+    /* About Area Start */
+    .about__area{
+        padding: 120px 0;
+    }
+    .about__content h2{
+        font-size: 48px;
+    }
+    .about__content p{
+        font-size:24px;
+    }
+    /* About Area End */
+
+    /* Footer Area */
+    .divider__area {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .footer__left-content p, .footer__right-content p, .footer__links ul li a{
+        font-size:18px;
+    }
+    .footer__links{
+        padding: 108px 0;
+    }
+    /* Footer Area */
+
+}
+
+@media (min-width: 1600px) and (max-width:1799px){
+    /* Header Area Start */
+    .container{
+        max-width:85%;
+    }
+    .main__menu {
+        padding: 32px 0;
+    }
+    .main-nav__items ul li:not(:last-child) {
+        margin-right: 56px;
+    }
+    .main-nav__items ul li a{
+        font-size:20px;
+    }
+    .main-nav__items ul li:last-child{
+        margin-right: 0;
+    }
+    /* Header Area End */
+
+    /*Banner Area Start*/
+    .banner__content h1{
+        font-size:72px;
+    }
+    /*Banner Area End*/
+
+    /*Service Area Start*/
+    .service__area{
+        padding: 120px 0;
+    }
+    .service__title {
+        margin-bottom: 72px;
+    }
+    .service__title h1{
+        font-size:52px;
+    }
+    .service__card1,
+    .service__card2,
+    .service__card3{
+        padding: 32px 32px 80px 32px;
+    }
+    .card__header .card__header-text h3{
+        font-size:18px;
+    }
+    .card__body p{
+        font-size:18px;
+    }
+    .card__header img{
+        width: 42px;
+        height: 42px;
+        margin-bottom: 20px;
+    }
+    .card__header {
+        margin-bottom: 32px;
+    }
+    /*Service Area Start*/
+
+    /* About Area Start */
+    .about__area{
+        padding: 120px 0;
+    }
+    .about__content h2{
+        font-size: 48px;
+    }
+    .about__content p{
+        font-size:24px;
+    }
+    /* About Area End */
+
+    /* Footer Area */
+    .divider__area {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .footer__left-content p, .footer__right-content p, .footer__links ul li a{
+        font-size:18px;
+    }
+    .footer__links{
+        padding: 108px 0;
+    }
+    /* Footer Area */
+
+}
