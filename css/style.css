@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --primary:#121f3f;
     --secundary:#f5ebc6;
@@ -70,7 +74,10 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding:300px 0;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 136px;
 }
 .banner__content h1{
     font-family: 'Rubik', sans-serif;
@@ -165,6 +172,24 @@ p{
     color:#fbf9d6;
     margin-bottom: 32px;
 }
+
+@media (min-width: 320px) and (max-width:365px) {
+    .about__content h2{
+        font-size: 20px;
+    }
+}
+@media (min-width: 366px) and (max-width:400px) {
+    .about__content h2{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 401px) and (max-width:575px) {
+    .about__content h2{
+        font-size: 24px;
+    }
+}
+
 .about__content p{
     font-family: 'Rubik', sans-serif;
     font-size:36px;

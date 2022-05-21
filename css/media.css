@@ -6,10 +6,10 @@
         max-width: 100%;
     }
     .logo{
-        width:70%;
+        width:60%;
     }
     .logo img{
-        width:80%;
+        width:75%;
     }
     .navbar-toggler{
         width:22%;
@@ -35,6 +35,10 @@
 
     /* Banner Section Start */
 
+    .banner__area{
+        padding-top: 82px;
+    }
+
     .banner__content h1{
         font-size: 44px;
         text-align: center;
@@ -44,8 +48,8 @@
 
     /* Service Section Start */
     .service__area{
-        padding-top: 120px;
-        padding-bottom: 60px;
+        padding-top: 108px;
+        padding-bottom: 0;
     }
     .service__card1,
     .service__card2,
@@ -53,7 +57,7 @@
         margin-bottom: 64px;
     }
     .service__title h1{
-        font-size:36px;
+        font-size:28px;
     }
     .service__card1,
     .service__card2,
@@ -78,12 +82,9 @@
 
     /*About Area Start*/
     .about__area{
-        padding-top: 48px;
+        padding-top: 120px;
         padding-bottom: 60px;
         background-size: cover;
-    }
-    .about__content h2{
-        font-size:32px;
     }
     .about__content p{
         font-size:18px
@@ -140,6 +141,10 @@
 
     /* Banner Section Start */
 
+    .banner__area{
+        padding-top: 87px;
+    }
+
     .banner__content h1{
         font-size: 52px;
     }
@@ -149,7 +154,7 @@
     /* Service Section Start */
     .service__area{
         padding-top: 120px;
-        padding-bottom: 60px;
+        padding-bottom: 0px;
     }
     .service__card1,
     .service__card2,
@@ -182,7 +187,7 @@
 
     /*About Area Start*/
     .about__area{
-        padding-top: 48px;
+        padding-top: 120px;
         padding-bottom: 60px;
         background-size: cover;
     }
@@ -243,7 +248,9 @@
     /* Header Area End */
 
     /* Banner Section Start */
-
+    .banner__area{
+        padding-top: 87px;
+    }
     .banner__content h1{
         font-size: 52px;
     }
@@ -252,7 +259,8 @@
 
     /* Service Section Start */
     .service__area{
-        padding: 120px 0;
+        padding-top: 120px;
+        padding-bottom: 0px;
     }
     .service__card1,
     .service__card2,
@@ -285,7 +293,8 @@
 
     /*About Area Start*/
     .about__area{
-        padding: 32px 0;
+        padding-top: 144px;
+        padding-bottom: 32px;
         background-size: cover;
     }
     .about__content h2{
@@ -335,6 +344,9 @@
     /* Header Area End */
 
     /*Banner Area Start*/
+    .banner__area{
+        padding-top: 111px;
+    }
     .banner__content h1{
         font-size:72px;
     }
@@ -342,7 +354,8 @@
 
     /*Service Area Start*/
     .service__area{
-        padding: 120px 0;
+        padding-top: 124px;
+        padding-bottom: 108px;
     }
     .service__title {
         margin-bottom: 72px;
@@ -373,7 +386,8 @@
 
     /* About Area Start */
     .about__area{
-        padding: 120px 0;
+        padding-top: 128px;
+        padding-bottom: 120px;
     }
     .about__content h2{
         font-size: 48px;
@@ -385,7 +399,7 @@
 
     /* Footer Area */
     .divider__area {
-        padding-top: 120px;
+        padding-top: 96px;
         padding-bottom: 80px;
     }
     .footer__left-content p, .footer__right-content p, .footer__links ul li a{
@@ -420,6 +434,9 @@
     /* Header Area End */
 
     /*Banner Area Start*/
+    .banner__area{
+        padding-top: 111px;
+    }
     .banner__content h1{
         font-size:72px;
     }
@@ -503,6 +520,9 @@
     /* Header Area End */
 
     /*Banner Area Start*/
+    .banner__area{
+        padding-top: 111px;
+    }
     .banner__content h1{
         font-size:72px;
     }
@@ -586,6 +606,9 @@
     /* Header Area End */
 
     /*Banner Area Start*/
+    .banner__area{
+        padding-top: 111px;
+    }
     .banner__content h1{
         font-size:72px;
     }
@@ -647,4 +670,10 @@
     }
     /* Footer Area */
 
+}
+
+@media (min-width:1800px) and (max-width:1899px){
+    .banner__content h1{
+        font-size: 92px;
+    }
 }
